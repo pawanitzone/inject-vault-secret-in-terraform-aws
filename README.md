@@ -12,8 +12,8 @@
 - export VAULT_TOKEN=mysecrettoken
 
 ###clone this repo
- #cd vault_admin_workspace
- #terraform init
+ - #cd vault_admin_workspace
+ - #terraform init
  #terraform apply
  #cd jenkins-instance
  #terraform init
