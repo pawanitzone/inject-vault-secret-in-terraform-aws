@@ -1,5 +1,6 @@
 # inject-vault-secret-in-terraform-aws
 ###Install Terraform
+
 ###Install Vault and start service: 
    - vault server -dev -dev-listen-address="ip_address_of_server:8200" -dev-root-token-id="mysecrettoken" &
    
