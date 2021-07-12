@@ -6,10 +6,10 @@
 ###Create AWS IAM user
 
 ###Set env variable:
-export TF_VAR_aws_access_key=XXXXXXXXXXX
-export TF_VAR_aws_secret_key=XXXXXXXXXXXXXXXX
-export VAULT_ADDR=http://ip_address_of_server:8200
-export VAULT_TOKEN=mysecrettoken
+- export TF_VAR_aws_access_key=XXXXXXXXXXX
+- export TF_VAR_aws_secret_key=XXXXXXXXXXXXXXXX
+- export VAULT_ADDR=http://ip_address_of_server:8200
+- export VAULT_TOKEN=mysecrettoken
 
 ###clone this repo
  #cd vault_admin_workspace
