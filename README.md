@@ -1,7 +1,7 @@
 # inject-vault-secret-in-terraform-aws
 ###Install Terraform
 ###Install Vault and start service: 
-   vault server -dev -dev-listen-address="ip_address_of_server:8200" -dev-root-token-id="mysecrettoken" &
+   - vault server -dev -dev-listen-address="ip_address_of_server:8200" -dev-root-token-id="mysecrettoken" &
    
 ###Create AWS IAM user
 
@@ -14,7 +14,7 @@
 ###clone this repo
  - #cd vault_admin_workspace
  - #terraform init
- #terraform apply
- #cd jenkins-instance
- #terraform init
- #terraform apply
+ - #terraform apply
+ - #cd jenkins-instance
+ - #terraform init
+ - #terraform apply
