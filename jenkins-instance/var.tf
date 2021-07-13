@@ -12,5 +12,20 @@ variable "jenkins_instance_type" {
   default = "t2.micro"
 }
 
+variable "ec2-public-key" {
+  type = map
+  default = {
+    public_key = "ssh-rsa AAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
+}
+
+variable "ubunut-ec2-private-key" {
+  default = "/Users/pawkumar/.ssh/id_rsa"
+
+}
+
+variable "ubuntu-instance-username" {
+  default = "ubuntu"
+}
 
 
