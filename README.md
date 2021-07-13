@@ -19,3 +19,7 @@
  - cd jenkins-instance
  - terraform init
  - terraform apply
+
+#Once terraform deployment is done, to finish jenkins installation process follow this:
+ - login to jenkins using instance public ip and port 8080
+ - and follow other steps
